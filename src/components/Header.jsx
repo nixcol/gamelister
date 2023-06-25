@@ -11,14 +11,14 @@ const StyledHeader = styled.header`
   .logo {
     margin-left: 10px; 
   }
-  
+
 
 `
 
 const Header = () => (
   <StyledHeader>
     Gamelister 
-    <img src="./src/assets/logo.svg"alt="logo" className='logo'/>
+    <img src="./gamelister/src/assets/logo.svg"alt="logo" className='logo'/>
   </StyledHeader>
 )
 
