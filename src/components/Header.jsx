@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
 const Header = () => (
   <StyledHeader>
     Gamelister 
-    <img src="src\assets\game-icon.svg" alt="game-icon" className='game-icon'/>
+    <img src="./src/assets/logo.svg" alt="logo" className='game-icon'/>
   </StyledHeader>
 )
 
