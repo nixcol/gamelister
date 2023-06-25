@@ -8,17 +8,17 @@ const StyledHeader = styled.header`
   font-size: 2em; 
   height: 45px;
 
-  .game-icon {
-    width: 50px;
-    height: 40px;
+  .logo {
+    margin-left: 10px; 
   }
+  
 
 `
 
 const Header = () => (
   <StyledHeader>
     Gamelister 
-    <img src="./src/assets/logo.svg" alt="logo" className='game-icon'/>
+    <img src="./src/assets/logo.svg"alt="logo" className='logo'/>
   </StyledHeader>
 )
 
